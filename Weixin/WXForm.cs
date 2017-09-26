@@ -55,7 +55,7 @@ namespace WX
         private void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             this.timer.Start();
-            this.Text = "微信PC版";
+            this.Text = "微信PC版 测试";
         }
 
         private void WXForm_Resize(object sender, EventArgs e)
